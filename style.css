@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50% 50%);
+    background: rgb(15, 0, 15);
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(120, 2, 120);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: aqua;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(247, 6, 247);
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background-color:rgb(247, 6, 247); ;
+}
+.box {
+    margin: -150px -200px;
+
+}
+
+.box input[type = "signup"]:hover{
+    background-color:rgb(247, 6, 247); ;
+}
+.edigit {
+    width: 100px;
+    height: 100px;
+    clip-path: circle();
+    align-items: center;
+    position: absolute;
+    margin: 120px 46%;
+}
